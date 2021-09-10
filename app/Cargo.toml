@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 psp = "0.1.3"
-demolib-sys = { path = "../demolib-sys" }
+libdemo-sys = { path = "../libdemo-sys" }
 
 [build-dependencies]
 cc = "1.0"

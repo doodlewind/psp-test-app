@@ -15,13 +15,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e70cc2f62c6ce1868963827bd677764c62d07c3d9a3e1fb1177ee1a9ab199eb2"
 
 [[package]]
-name = "demolib-sys"
-version = "0.0.0"
-dependencies = [
- "cc",
-]
-
-[[package]]
 name = "derivative"
 version = "2.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -30,6 +23,13 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "libdemo-sys"
+version = "0.0.0"
+dependencies = [
+ "cc",
 ]
 
 [[package]]
@@ -104,7 +104,7 @@ name = "psp-test-app"
 version = "0.1.0"
 dependencies = [
  "cc",
- "demolib-sys",
+ "libdemo-sys",
  "psp",
 ]
 

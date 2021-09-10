@@ -1,7 +1,7 @@
 #![no_std]
 #![no_main]
 
-use demolib_sys::test;
+use libdemo_sys::test;
 psp::module!("test_app_module", 1, 1);
 
 #[no_mangle]
